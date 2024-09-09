@@ -1,0 +1,109 @@
+:root{
+    --primary-color:#09423b;
+    --dark-color: black;
+}
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+.navigation{
+
+    width: 100%;
+    background-color: rgb(201, 179, 193);
+    height: 100px;
+}
+.navigation-content{
+    width: 80%;
+    /* background-color: rgb(14, 13, 13); */
+    height: 100%;
+    margin:auto;
+    display: flex;
+}
+.logo-area{
+    height: 100%;
+    /* background-color: aqua; */
+    width:20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    
+}
+.menu-list{
+    height: 100%;
+    /* background-color: rgb(196, 38, 104); */
+    width:80%;
+    display: flex;
+    gap: 20px;
+    justify-content: end;
+    align-items: center;
+}
+
+.menu-list a{
+    text-decoration: none;
+    font-size: 16px;
+    color: black;
+    font-weight: 600;
+}
+
+.menu-list a:hover{
+
+    color:var(--primary-color);
+    border: 1px solid rgb(16, 54, 38);
+    padding: 8px;
+    transition: all;
+    transition-duration: .5s;
+    border-radius: 10px;
+    
+}
+
+.body-area{
+    width: 80%;
+    height:540px ;
+    /* background-color: rgb(211, 127, 24); */
+    margin: auto;
+    display: flex;
+}
+
+.text-area{
+    width: 40%;
+    /* background-color: aqua; */
+    height:100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    
+}
+.text-area button{
+    width: 100px;
+    height: 40px;
+    border-radius: 10px;
+    padding: 10px;
+    background-color:  rgb(201, 179, 193);
+    border: none;
+    color: black;
+    font-weight: 600;
+
+}
+.text-area button:hover{
+    color:var(--primary-color);
+    background-color: var(--dark-color);
+}
+.image-area{
+    width: 60%;
+    /* background-color: rgb(103, 143, 143); */
+    height:100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.image-area img{
+    width:50%;
+    margin-top: 40px;
+   
+}
